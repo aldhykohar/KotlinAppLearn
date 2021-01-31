@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinAppLearn</string>
+    <string name="intent_explicit">Intent Explicit</string>
+</resources>

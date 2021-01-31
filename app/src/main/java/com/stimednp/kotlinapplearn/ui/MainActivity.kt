@@ -1,4 +1,4 @@
-package com.stimednp.kotlinapplearn
+package com.stimednp.kotlinapplearn.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
             intent.type = "text/plain"
 
             startActivity(Intent.createChooser(intent, "Share to"))
+        }
+
+        binding.btnRecyclerViewDemo.setOnClickListener {
+            startActivity(Intent(this, HobbiesActivity::class.java))
         }
     }
 }

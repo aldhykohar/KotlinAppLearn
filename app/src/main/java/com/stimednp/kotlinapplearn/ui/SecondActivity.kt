@@ -1,4 +1,4 @@
-package com.stimednp.kotlinapplearn
+package com.stimednp.kotlinapplearn.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

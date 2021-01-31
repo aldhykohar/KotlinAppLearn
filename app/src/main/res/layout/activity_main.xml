@@ -25,5 +25,12 @@
             android:layout_height="wrap_content"
             android:text="@string/intent_explicit"
             app:layout_constraintTop_toBottomOf="@id/editText" />
+
+        <Button
+            android:id="@+id/btnIntentIm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intent_implicit"
+            app:layout_constraintTop_toBottomOf="@id/btnIntentEx" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

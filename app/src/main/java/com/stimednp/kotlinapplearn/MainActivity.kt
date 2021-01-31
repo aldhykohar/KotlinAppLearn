@@ -23,5 +23,17 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("name", msg)
             startActivity(intent)
         }
+
+        binding.btnIntentIm.setOnClickListener {
+
+            val msg = binding.editText.text.toString()
+
+            val intent = Intent()
+            intent.action = Intent.ACTION_SEND
+            intent.putExtra(Intent.EXTRA_TEXT, msg)
+            intent.type = "text/plain"
+
+            startActivity(Intent.createChooser(intent, "Share to"))
+        }
     }
 }
